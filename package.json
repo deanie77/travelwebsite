@@ -4,9 +4,13 @@
     "express-handlebars": "^6.0.2"
   },
   "devDependencies": {
-    "jest": "^27.4.5"
+    "eslint": "^8.5.0",
+    "jest": "^27.4.5",
+    "portfinder": "^1.0.28",
+    "puppeteer": "^13.0.1"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "lint": "eslint meadowlark.js lib"
   }
 }
